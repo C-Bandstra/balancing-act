@@ -1,0 +1,131 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.icon{
+  width: 36px;
+  margin: 10px;
+
+}
+
+.header{
+  border-style: solid;
+  width: 30%;
+  padding: 2%;
+  font-size: 28;
+  margin-left: 15px;
+  margin-top: 10px;
+
+}
+
+.welcome-banner{
+  border-style: solid;
+  width: 30%;
+  padding: 2%;
+  font-size: 18;
+  padding-right: 15%;
+  margin-left: 15px;
+}
+
+.home{
+  padding-top: 10px;
+  padding-bottom: 180px;
+  width: 60px;
+}
+
+.navbar{
+  float: left;
+  border-style: solid;
+  border-color: blue;
+  height: 100%;
+  position: absolute;
+  width: 75px;
+  text-align: center;
+}
+
+main{
+  border-style: solid;
+  border-color: yellow;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.main2{
+  border-style: solid;
+  border-color: green;
+  float: right;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+}
+.main1{
+  border-style: solid;
+  border-color: red;
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+}
+.container{
+
+border-color: orange;
+border-style: solid;
+overflow: auto;
+margin-left: 5.75%
+}
+
+.quick-cards{
+  border-style: solid;
+  width: 30%;
+  display: inline-block;
+  margin: 5px;
+  margin-left: 5px
+}
+.quick-card1{
+  border-style: solid;
+  width: 30%;
+  display: inline-block;
+  margin: 3px;
+  margin-left: 15px;
+}
+.row{
+  width: 100px;
+  border-style: solid;
+  border-color: purple;
+  display:inline-block;
+
+
+}
+
+.column1{
+    width: 100px;
+    border-style: solid;
+
+}
+.column2{
+    width: 100px;
+    border-style: solid;
+
+}
+.column3{
+    width: 100px;
+    border-style: solid;
+
+}
+.column4{
+    width: 100px;
+    border-style: solid;
+
+}
+
+.column-row-box{
+  margin-left: 5%;
+}
+
+.columns{
+display: inline;
+}
