@@ -4,32 +4,42 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+  background-color: #F5F5F5
 }
+* {
+  color: #363636;
+  font-family: "Biryani"
 
+}
 .icon{
   width: 36px;
   margin: 10px;
-
 }
-
 .header{
-  border-style: solid;
+  /* border-style: solid; */
   width: 30%;
-  padding: 2%;
+  padding: 4%;
   font-size: 28;
   margin-left: 15px;
   margin-top: 10px;
-
+  border-radius: 3px;
 }
 
 .welcome-banner{
-  border-style: solid;
-  width: 30%;
+  /* border-style: solid; */
+  width: 72.75%;
+  height: 50px;
   padding: 2%;
   font-size: 18;
   padding-right: 15%;
-  margin-left: 15px;
+  padding-top:;
+  margin-left: 4%;
+  background: linear-gradient(to right, #8ED1DC, #E3F4F6);
+  border-radius: 3px;
+  padding-top: 33px;
+
 }
+
 
 .home{
   padding-top: 10px;
@@ -37,95 +47,190 @@ body {
   width: 60px;
 }
 
+
 .navbar{
   float: left;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: blue;
   height: 100%;
   position: absolute;
   width: 75px;
   text-align: center;
+  background-color: white;
 }
 
+
 main{
-  border-style: solid;
+  /* border-style: solid; */
   border-color: yellow;
   float: left;
   width: 100%;
   height: 100%;
+
+
 }
 .main2{
-  border-style: solid;
-  border-color: green;
+  /* border-style: solid;
+  border-color: green; */
   float: right;
   box-sizing: border-box;
-  width: 50%;
+  width: 44.75%;
   height: 100%;
+  margin-top: 7px;
+
+
 }
 .main1{
-  border-style: solid;
+  /* border-style: solid; */
   border-color: red;
   float: left;
   box-sizing: border-box;
   width: 50%;
   height: 100%;
+  margin-left:5.25%
 }
+
+
 .container{
-
-border-color: orange;
-border-style: solid;
+/* border-color: orange; */
+/* border-style: solid; */
 overflow: auto;
-margin-left: 5.75%
 }
 
-.quick-cards{
-  border-style: solid;
-  width: 30%;
+
+.quick-cards {
+  /* border-style: solid; */
+  width: 25%;
   display: inline-block;
-  margin: 5px;
-  margin-left: 5px
+  margin: 10;
+  margin-left: 5%;
+  background-color: white;
+  border-radius: 3px;
 }
+
+
 .quick-card1{
-  border-style: solid;
-  width: 30%;
+  /* border-style: solid; */
+  width: 25%;
   display: inline-block;
   margin: 3px;
-  margin-left: 15px;
-}
-.row{
-  width: 100px;
-  border-style: solid;
-  border-color: purple;
-  display:inline-block;
-
+  margin-left: 4%;
+  background-color: white;
+  border-radius: 3px;
 
 }
 
-.column1{
-    width: 100px;
-    border-style: solid;
+
+.account-img {
+  width: 36px;
+  margin-left: 20;
 
 }
-.column2{
-    width: 100px;
-    border-style: solid;
-
+.row-1-4{
+      margin-left: 180px;
 }
-.column3{
-    width: 100px;
-    border-style: solid;
 
-}
-.column4{
-    width: 100px;
-    border-style: solid;
+.row-1-3{
+  margin-left: 198px;
 
 }
 
-.column-row-box{
-  margin-left: 5%;
+.row-1-2{
+  margin-left: 220px;
+
 }
 
-.columns{
-display: inline;
+.row-1-1{
+  margin-left: 80px;
+
+}
+.row-1 {
+  display: inline-block;
+
+}
+.row-box{
+  /* border-style: solid; */
+  background-color: white;
+  margin-bottom: 10px;
+  margin-left: 4%;
+  width: 88%;
+  display: inline-block;
+
+}
+
+.account-text{
+  margin-left: 4%;
+  display: inline-block;
+}
+  .account-img {
+    width: 36px;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: -15px;
+}
+.card-words {
+  font-size: 60%;
+  padding-left: 20px;
+
+}
+.card-numbers{
+  padding-left: 20px;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+
+}
+.button1{
+  float: right;
+  border-radius: 17px;
+  width: 180px;
+  background-color: #1CA3BA;
+  color: white;
+  font-size: 14px;
+  margin-right: 57px;
+  margin-top: 41px;
+}
+
+.transactions{
+  float:left;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 500px;
+  height: 460;
+  font-size: 14;
+  background-color: white;
+  /* margin: 20px; */
+
+
+}
+
+.transactions tr td{
+  border-bottom:1px solid #CCCCCC;
+
+}
+
+.transactions-header{
+  display: inline;
+}
+
+.button2{
+  float: right;
+  border-radius: 17px;
+  width: 180px;
+  background-color: #1CA3BA;
+  color: white;
+  font-size: 14px;
+}
+.table-header{
+  text-align: left;
+
+}
+.table-box{
+  width: 500px;
+  margin-top: 135px;
+  margin-left: 30px;
+  background-color: white;
+}
+.shit{
+  
 }
