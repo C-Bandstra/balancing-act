@@ -11,23 +11,41 @@ body {
   font-family: "Biryani"
 
 }
-.icon{
+
+.icon-1{
   width: 36px;
   margin: 10px;
+  border-left: #1CA3BA;
+}
+
+.icon-2{
+  width: 36px;
+  margin: 10px;
+  border-left: #1CA3BA;
+
+}
+
+.icon-3{
+  width: 36px;
+  margin: 10px;
+
+}
+
+
 }
 .header{
   /* border-style: solid; */
   width: 30%;
   padding: 4%;
   font-size: 28;
-  margin-left: 15px;
-  margin-top: 10px;
+  margin-top: 0px;
   border-radius: 3px;
+  margin-bottom: -20px;
 }
 
 .welcome-banner{
   /* border-style: solid; */
-  width: 72.75%;
+  width: 71%;
   height: 50px;
   padding: 2%;
   font-size: 18;
@@ -37,13 +55,14 @@ body {
   background: linear-gradient(to right, #8ED1DC, #E3F4F6);
   border-radius: 3px;
   padding-top: 33px;
+  display:inline-block;
 
 }
 
 
 .home{
   padding-top: 10px;
-  padding-bottom: 180px;
+  padding-bottom: 220;
   width: 60px;
 }
 
@@ -206,6 +225,7 @@ overflow: auto;
 
 .transactions tr td{
   border-bottom:1px solid #CCCCCC;
+  margin-left: 5px
 
 }
 
@@ -227,10 +247,22 @@ overflow: auto;
 }
 .table-box{
   width: 500px;
-  margin-top: 135px;
+  margin-top: 94px;
   margin-left: 30px;
   background-color: white;
+
 }
-.shit{
-  
+
+.date{
+  margin-right: -10px;
+}
+
+.close-icon{
+  width: 10px;
+  float: right;
+  margin: -25;
+  margin-right: -95px;
+
+  }
+
 }

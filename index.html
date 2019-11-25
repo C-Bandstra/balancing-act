@@ -1,18 +1,21 @@
+<html>
 <head>
     <title>Balancing Act</title>
       <link rel="stylesheet" type="text/css" href="styles.css">
+
       <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
     </head>
     <body>
       <main>
         <nav class= "navbar">
           <img class="home" src= "assets/images/elephant.svg" alt="logo"/>
-          <input class="icon" type="image" src="assets/images/dashboard.svg"/>
-          <input class="icon" type="image" src="assets/images/transactions.svg"/>
-          <input class="icon" type="image" src="assets/images/profile.svg"/>
+          <input class="icon-1" type="image" src="assets/images/dashboard.svg"/>
+          <input class="icon-2" type="image" src="assets/images/transactions.svg"/>
+          <input class="icon-3" type="image" src="assets/images/profile.svg"/>
         </nav>
         <section class="container">
           <section class="main2">
+            <div class="a">
             <div class="table-box">
               <h2 class= "transactions-header">Recent Transactions</h2>
               <button class="button2" type="button">New Transaction</button>
@@ -79,12 +82,15 @@
                 </tr>
             </table>
           </div>
+        </div>
 
         </section>
 
         <section class="main1">
-          <h1 class="header">Balancing Act</h1>
-          <h2 class="welcome-banner">Welcome, Oscar!</h2>
+          <h1 class="header" style="width: 30%;padding: 4%;font-size: 28;margin-top: 0px;border-radius: 3px;margin-bottom: -20px;">Balancing Act</h1>
+          <h2 class="welcome-banner">Welcome, Oscar!
+            <input class="close-icon" type="image" src="assets/images/close.svg"/>
+          </h2>
           <section class="quick-card1">
             <h5 class= "card-words">INCOME</h5>
             <p class="card-numbers">$2,119.12</p>
@@ -125,5 +131,6 @@
           </section>
         </section>
       </main>
+      <script src="main.js"></script>
     </body>
   </html>
