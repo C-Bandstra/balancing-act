@@ -1,205 +1,207 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  background-color: #F5F5F5
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F5F5F5
 }
+
 * {
-  color: #363636;
-  font-family: "Biryani"
-
+	color: #363636;
+	font-family: "Biryani"
 }
 
-.icon-1{
-  width: 36px;
-  margin: 10px;
-  border-left: #1CA3BA;
+.navbar {
+	float: left;
+	/* border-style: solid; */
+	border-color: blue;
+	height: 100%;
+	position: absolute;
+	width: 75px;
+	text-align: center;
+	background-color: white;
 }
 
-.icon-2{
-  width: 36px;
-  margin: 10px;
-  border-left: #1CA3BA;
-
+.home-icon {
+	padding-top: 10px;
+	padding-bottom: 220;
+	width: 60px;
 }
 
-.icon-3{
-  width: 36px;
-  margin: 10px;
-
+.dashboard-icon {
+	width: 36px;
+	margin: 10px;
+	border-left: solid #1CA3BA;
 }
 
-
-}
-.header{
-  /* border-style: solid; */
-  width: 30%;
-  padding: 4%;
-  font-size: 28;
-  margin-top: 0px;
-  border-radius: 3px;
-  margin-bottom: -20px;
+.trans-icon {
+	width: 36px;
+	margin: 10px;
+	border-left: #1CA3BA;
 }
 
-.welcome-banner{
-  /* border-style: solid; */
-  width: 71%;
-  height: 50px;
-  padding: 2%;
-  font-size: 18;
-  padding-right: 15%;
-  padding-top:;
-  margin-left: 4%;
-  background: linear-gradient(to right, #8ED1DC, #E3F4F6);
-  border-radius: 3px;
-  padding-top: 33px;
-  display:inline-block;
-
+.profile-icon {
+	width: 36px;
+	margin: 10px;
 }
 
-
-.home{
-  padding-top: 10px;
-  padding-bottom: 220;
-  width: 60px;
+.page-1-container {
+	/* border-color: orange;
+	border-style: solid; */
+	overflow: auto;
 }
 
-
-.navbar{
-  float: left;
-  /* border-style: solid; */
-  border-color: blue;
-  height: 100%;
-  position: absolute;
-  width: 75px;
-  text-align: center;
-  background-color: white;
+.page-1-main-1 {
+	/* border-style: solid; */
+	border-color: red;
+	float: left;
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+	margin-left: 5.25%
 }
 
-
-main{
-  /* border-style: solid; */
-  border-color: yellow;
-  float: left;
-  width: 100%;
-  height: 100%;
-
-
-}
-.main2{
-  /* border-style: solid;
-  border-color: green; */
-  float: right;
-  box-sizing: border-box;
-  width: 44.75%;
-  height: 100%;
-  margin-top: 7px;
-
-
-}
-.main1{
-  /* border-style: solid; */
-  border-color: red;
-  float: left;
-  box-sizing: border-box;
-  width: 50%;
-  height: 100%;
-  margin-left:5.25%
+.page-1-header {
+	/* border-style: solid; */
+	width: 30%;
+	padding: 4%;
+	font-size: 28;
+	margin-top: 0px;
+	border-radius: 3px;
+	margin-bottom: -20px;
 }
 
-
-.container{
-/* border-color: orange; */
-/* border-style: solid; */
-overflow: auto;
+.welcome-banner {
+	/* border-style: solid; */
+	width: 71%;
+	height: 50px;
+	padding: 2%;
+	font-size: 18;
+	padding-right: 15%;
+	padding-top: ;
+	margin-left: 4%;
+	background: linear-gradient(to right, #8ED1DC, #E3F4F6);
+	border-radius: 3px;
+	padding-top: 33px;
+	display: inline-block;
 }
 
-
-.quick-cards {
-  /* border-style: solid; */
-  width: 25%;
-  display: inline-block;
-  margin: 10;
-  margin-left: 5%;
-  background-color: white;
-  border-radius: 3px;
+.close-icon {
+	width: 10px;
+	float: right;
+	margin: -25;
+	margin-right: -95px;
 }
 
-
-.quick-card1{
-  /* border-style: solid; */
-  width: 25%;
-  display: inline-block;
-  margin: 3px;
-  margin-left: 4%;
-  background-color: white;
-  border-radius: 3px;
-
+.income-card {
+	/* border-style: solid; */
+	width: 25%;
+	display: inline-block;
+	margin: 3px;
+	margin-left: 4%;
+	background-color: white;
+	border-radius: 3px;
 }
 
-
-.account-img {
-  width: 36px;
-  margin-left: 20;
-
-}
-.row-1-4{
-      margin-left: 180px;
-}
-
-.row-1-3{
-  margin-left: 198px;
-
-}
-
-.row-1-2{
-  margin-left: 220px;
-
-}
-
-.row-1-1{
-  margin-left: 80px;
-
-}
-.row-1 {
-  display: inline-block;
-
-}
-.row-box{
-  /* border-style: solid; */
-  background-color: white;
-  margin-bottom: 10px;
-  margin-left: 4%;
-  width: 88%;
-  display: inline-block;
-
-}
-
-.account-text{
-  margin-left: 4%;
-  display: inline-block;
-}
-  .account-img {
-    width: 36px;
-    margin-left: 16px;
-    margin-top: 12px;
-    margin-bottom: -15px;
+.expenses-card,
+.credit-score-card {
+	/* border-style: solid; */
+	width: 25%;
+	display: inline-block;
+	margin: 10;
+	margin-left: 5%;
+	background-color: white;
+	border-radius: 3px;
 }
 .card-words {
-  font-size: 60%;
-  padding-left: 20px;
+	font-size: 60%;
+	padding-left: 20px;
+}
+
+.card-numbers {
+	padding-left: 20px;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+.accounts-header {
+	margin-left: 4%;
+	display: inline-block;
+  margin-bottom:10px
+}
+
+.man-acc-button {
+	float: right;
+	border-radius: 17px;
+	width: 180px;
+	background-color: #1CA3BA;
+	color: white;
+	font-size: 14px;
+	margin-right: 57px;
+  margin-top: 30px
+}
+
+.accounts-rows {
+	/* border-style: solid; */
+	background-color: white;
+	margin-bottom: 10px;
+	margin-left: 4%;
+	width: 88%;
+	display: inline-block;
+}
+
+.row-1 {
+	display: inline-block;
+}
+
+.account-icon {
+	width: 36px;
+	margin-left: 20px;
+	margin-top: 12px;
+	margin-bottom: -15px;
+}
+
+.row-bank {
+	margin-left: 80px;
+}
+
+.row-account {
+	margin-left: 220px;
+}
+
+.row-3-account {
+	margin-left: 198px;
+}
+
+.row-4-account {
+	margin-left: 180px;
+}
+
+.page-1-main-2 {
+	/* border-style: solid;
+  border-color: green; */
+	float: right;
+	box-sizing: border-box;
+	width: 44.75%;
+	height: 100%;
+	margin-top: 7px;
+}
+
+.table-container {
+	width: 500px;
+	margin-top: 94px;
+	margin-left: 30px;
+	background-color: white;
 
 }
-.card-numbers{
-  padding-left: 20px;
-  font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 8px;
 
+.transactions-header {
+	display: inline;
 }
-.button1{
+
+.new-trans-button{
   float: right;
   border-radius: 17px;
   width: 180px;
@@ -207,62 +209,186 @@ overflow: auto;
   color: white;
   font-size: 14px;
   margin-right: 57px;
-  margin-top: 41px;
 }
 
-.transactions{
-  float:left;
-  border-spacing: 0px;
-  border-collapse: collapse;
-  width: 500px;
-  height: 460;
-  font-size: 14;
-  background-color: white;
-  /* margin: 20px; */
-
-
+.transactions {
+	float: left;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 500px;
+	height: 460;
+	font-size: 14;
+	background-color: white;
 }
 
-.transactions tr td{
-  border-bottom:1px solid #CCCCCC;
-  margin-left: 5px
-
+.table-header-1 {
+	text-align: left;
+  border-bottom: 1px solid black;
+  border-bottom;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  padding-top: 20px
 }
 
-.transactions-header{
-  display: inline;
-}
-
-.button2{
-  float: right;
-  border-radius: 17px;
-  width: 180px;
-  background-color: #1CA3BA;
-  color: white;
+.table-columns-1{
+  border-bottom: 1px solid black;
+  padding-left: 17px;
+  padding-right: 17px;
   font-size: 14px;
 }
-.table-header{
-  text-align: left;
 
+.button2 {
+	float: right;
+	border-radius: 17px;
+	width: 180px;
+	background-color: #1CA3BA;
+	color: white;
+	font-size: 14px;
 }
-.table-box{
-  width: 500px;
-  margin-top: 94px;
-  margin-left: 30px;
+
+.date {
+	margin-right: -10px;
+}
+
+.page-2-main-2  {
+	/* border-style: solid;
+  border-color: green; */
+	float: right;
+	box-sizing: border-box;
+	width: 44.75%;
+	height: 100%;
+	margin-top: 7px;
+}
+
+.page-2-main-1 {
+	/* border-style: solid; */
+	border-color: red;
+	float: left;
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+	margin-left: 5.25%
+}
+
+.button-1-page-2 {
+	float: right;
+	border-radius: 17px;
+	width: 100;
+	background-color: #1CA3BA;
+	color: white;
+	font-size: 12px;
+	margin: 2px;
+	border: 1px solid #1CA3BA;
+}
+
+.button-2-page-2 {
+	float: right;
+	border-radius: 17px;
+	width: 100;
+	background-color: white;
+	color: #1CA3BA;
+	border: 1px solid #1CA3BA;
+	font-size: 12px;
+	margin: 2px;
+}
+
+.button-3-page-2 {
+	float: right;
+	border-radius: 17px;
+	width: 100;
+	background-color: white;
+	color: #1CA3BA;
+	border: 1px solid #1CA3BA;
+	font-size: 12px;
+	margin: 2px;
+}
+
+.button-div {
+	margin-right: 28px;
+	margin-top: -65px;
+}
+
+.transactions-page-2 {
+  float: left;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 625px;
+  height: 650px;
+  font-size: 14;
   background-color: white;
+  margin-left: 40px;
+  margin-top: 27px
+}
+
+.table-columns-2 {
+	border-bottom: 1px solid black;
+	padding-left: 17px;
+	padding-right: 17px;
+	font-size: 13;
+}
+
+.table-header {
+	border-bottom: 1px solid black;
+	border-bottom;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 16px;
+	padding-top: 20px;
+  text-align: left;
+}
+
+.header-1-page-2 {
+  width: 30%;
+  padding: 4%;
+  font-size: 28;
+  margin-top: -5px;
+  border-radius: 3px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.header-2-page-2{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.form-box {
+	width: 500px;
+	height: 650px;
+	background-color: white;
+	margin-top: 90px;
+	padding-top: 2px;
+  margin-left: 40px;
+}
+
+.account-form,
+.category-form,
+.expense-form{
+  margin-left: 75px;
 
 }
 
-.date{
-  margin-right: -10px;
+.form-title{
+  margin-bottom: 0px;
+  margin-top: 25px;
+  font-size: 14px;
 }
 
-.close-icon{
-  width: 10px;
-  float: right;
-  margin: -25;
-  margin-right: -95px;
+.text-box{
+  max-width: 600px;
+  margin-left: 75px;
+}
 
-  }
-
+.log-exp-button{
+  float: left;
+	border-radius: 17px;
+	width: 140px;
+	background-color: #1CA3BA;
+	color: white;
+	font-size: 14px;
+  margin-top: 30px;
+  margin-left:75px;
 }
